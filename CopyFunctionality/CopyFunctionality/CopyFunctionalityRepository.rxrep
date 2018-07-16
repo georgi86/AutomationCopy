@@ -1,0 +1,144 @@
+﻿<repository
+id="fa48f709-f26d-4c20-8e0b-57447a37c288"
+name="CopyFunctionalityRepository"
+rxversion="7.0">
+	<codegen
+	classname="CopyFunctionalityRepository"
+	namespace="CopyFunctionality">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="1d7b296a-f5ba-4566-83f3-76a9778b117f"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="f0c58a38-6ec1-492c-833c-f5a031cf6d61"
+		isrooted="True"
+		name="SnapXUntitled"
+		refpath="/form[@title='Snap-X - [Untitled]']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="titlebar,accessible"
+			capname="titlebar"
+			id="121933c6-21c3-4e58-88dc-b46ddc9b99ba"
+			name="TitleBar"
+			refimgid="854d8f0c-693b-4f2e-ba43-c26e71d3c55b"
+			refpath="/form[@title='Snap-X - [Untitled]']/titlebar[@accessiblerole='TitleBar']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/titlebar[@accessiblerole='TitleBar']
+			</item>
+			<basepath>
+				/form[@title='Snap-X - [Untitled]']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGqSURBVDhPjVM9SwNBEF2/EcUuaJLdvd1LqihY
+BBFtRPAfWKkgWNpZqKUpLARLCzEggk0gweQuKURtBCsFwcJGsRLsLAQFBRXju73R3MUoPnjs3bx5
+s7Ozd+wLTlxPukJX/+AGpX4jm0630SNjGcaaHaGvGhgNHa6O8n3JiMv1DLiF2IUj1BvZfRixgdmQ
+q1es7/67OnOEtVCWUpPVR4GxFojXISPR4foFG2TLItFP6Y1REno+ZESbnrEoZZRSfofL7TkkP9QK
+qMtiXA2S/AOFVKrdf4ikurFTsW7nnf1kssMkEA57e7twlGlwFwNfrXA9xPKcd2JAJ2GzXiePwZ6U
+NrrZRtFHrDnHshRJXttqM2gGD6qMNXmat0JfQuzZaNjImIKAQFfjs8jtAZK84pmghs7uSKohlICr
+orAB2p0N6h4xlx6SfaDqRygpbo2TxI7ZWCvOfRPUHZlIk+wDn+hauIh6Qmy5ErWlp9d3UeL2lDEG
+gaqjZrpC3QeT8X6L4qfBGOayQrbGcIWIlWLWiCv1hGFcDaOjxVoRlaPU/8ObBYz+P8LVOYUBxj4B
+q6oLt3Pkl98AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="99e8b054-6b73-4ca1-a9a5-14e617bf18cf"
+		isrooted="True"
+		name="SnapXCopyMxy"
+		refpath="/form[@title='Snap-X - [Copy.mxy]']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="b64cbcbb-ae1c-4265-97c4-99583cf1579a"
+			name="Finish"
+			refimgid="b35a4426-f9ac-4d76-92ae-9d8f16898fc4"
+			searchtimeout="600000ms">
+				/form[@title='Snap-X - [Copy.mxy]']/container[@controlid='59648']/form[@controlid='65281']/?/?/element[@controlid='59649']/element[@controlid='59648']/?/?/button[@text='Finish' and @enabled='True']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="bd8578b7-5986-4974-97f0-002f024276f6"
+			name="BIGtoFFW"
+			refimgid="2ccbc3c2-a1d8-4d43-aee0-730b6950d9f0"
+			refpath="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@controlid='65281']/element[@controlid='59648']/element[@controlid='59649']/container[@controlid='59648']/toolbar[@controlid='59392' and @class='ToolbarWindow32' and @instance='7']/button[@commandid='40028']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Copy.mxy]']/?/?/form[@controlid='65281']//container[@controlid='59648']/toolbar[@class='ToolbarWindow32' and @instance='7']/button[@commandid='40028']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="7f7bd033-7d4b-48ea-9d0a-170c13673bcd"
+			name="FFWtoBIG"
+			refimgid="ff2f3b5f-de4e-4f8f-bbaf-801bda812cda"
+			refpath="/form[@title='Snap-X - [Copy.mxy]']/container[@controlid='59648']/form[@controlid='65280']/element[@controlid='59648']/element[@controlid='59650']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40029']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Copy.mxy]']/container[@controlid='59648']/form[@controlid='65280']/?/?/element[@controlid='59650']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40029']
+			</item>
+			<basepath>
+				/form[@title='Snap-X - [Copy.mxy]']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGqSURBVDhPjVM9SwNBEF2/EcUuaJLdvd1LqihY
+BBFtRPAfWKkgWNpZqKUpLARLCzEggk0gweQuKURtBCsFwcJGsRLsLAQFBRXju73R3MUoPnjs3bx5
+s7Ozd+wLTlxPukJX/+AGpX4jm0630SNjGcaaHaGvGhgNHa6O8n3JiMv1DLiF2IUj1BvZfRixgdmQ
+q1es7/67OnOEtVCWUpPVR4GxFojXISPR4foFG2TLItFP6Y1REno+ZESbnrEoZZRSfofL7TkkP9QK
+qMtiXA2S/AOFVKrdf4ikurFTsW7nnf1kssMkEA57e7twlGlwFwNfrXA9xPKcd2JAJ2GzXiePwZ6U
+NrrZRtFHrDnHshRJXttqM2gGD6qMNXmat0JfQuzZaNjImIKAQFfjs8jtAZK84pmghs7uSKohlICr
+orAB2p0N6h4xlx6SfaDqRygpbo2TxI7ZWCvOfRPUHZlIk+wDn+hauIh6Qmy5ErWlp9d3UeL2lDEG
+gaqjZrpC3QeT8X6L4qfBGOayQrbGcIWIlWLWiCv1hGFcDaOjxVoRlaPU/8ObBYz+P8LVOYUBxj4B
+q6oLt3Pkl98AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="3ded2e50-5a8f-425d-93e3-bf20b38e67c3"
+		isrooted="True"
+		name="Inspection"
+		refpath="/form[@title='Inspection']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="f3c8ff48-4163-4ddc-aba4-b0957b559081"
+			name="ButtonOK"
+			refimgid="91663161-1155-46bd-a37b-20e1ba9f4ef2"
+			searchtimeout="600000ms">
+				/form[@title='Inspection']/button[@text='&amp;OK' and @enabled='True']
+			</item>
+			<basepath>
+				/form[@title='Inspection']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGqSURBVDhPjVM9SwNBEF2/EcUuaJLdvd1LqihY
+BBFtRPAfWKkgWNpZqKUpLARLCzEggk0gweQuKURtBCsFwcJGsRLsLAQFBRXju73R3MUoPnjs3bx5
+s7Ozd+wLTlxPukJX/+AGpX4jm0630SNjGcaaHaGvGhgNHa6O8n3JiMv1DLiF2IUj1BvZfRixgdmQ
+q1es7/67OnOEtVCWUpPVR4GxFojXISPR4foFG2TLItFP6Y1REno+ZESbnrEoZZRSfofL7TkkP9QK
+qMtiXA2S/AOFVKrdf4ikurFTsW7nnf1kssMkEA57e7twlGlwFwNfrXA9xPKcd2JAJ2GzXiePwZ6U
+NrrZRtFHrDnHshRJXttqM2gGD6qMNXmat0JfQuzZaNjImIKAQFfjs8jtAZK84pmghs7uSKohlICr
+orAB2p0N6h4xlx6SfaDqRygpbo2TxI7ZWCvOfRPUHZlIk+wDn+hauIh6Qmy5ErWlp9d3UeL2lDEG
+gaqjZrpC3QeT8X6L4qfBGOayQrbGcIWIlWLWiCv1hGFcDaOjxVoRlaPU/8ObBYz+P8LVOYUBxj4B
+q6oLt3Pkl98AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
