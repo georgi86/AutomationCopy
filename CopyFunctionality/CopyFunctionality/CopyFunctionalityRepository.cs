@@ -108,6 +108,7 @@ namespace CopyFunctionality
         public partial class SnapXUntitledAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _titlebarInfo;
+            RepoItemInfo _buttongoInfo;
 
             /// <summary>
             /// Creates a new SnapXUntitled  folder.
@@ -116,6 +117,7 @@ namespace CopyFunctionality
                     base("SnapXUntitled", "/form[@title='Snap-X - [Untitled]']", parentFolder, 30000, null, true, "f0c58a38-6ec1-492c-833c-f5a031cf6d61", "")
             {
                 _titlebarInfo = new RepoItemInfo(this, "TitleBar", "titlebar[@accessiblerole='TitleBar']", 30000, null, "121933c6-21c3-4e58-88dc-b46ddc9b99ba");
+                _buttongoInfo = new RepoItemInfo(this, "ButtonGo", "container[@controlid='59648']/form[@controlid='65281']//element[@controlid='59664']/container[@controlid='59648']/button[@text='Go']", 30000, null, "acfdcc93-fe78-46ca-80a6-8aa1b2bc5f34");
             }
 
             /// <summary>
@@ -163,6 +165,26 @@ namespace CopyFunctionality
                 get
                 {
                     return _titlebarInfo;
+                }
+            }
+            [RepositoryItem("acfdcc93-fe78-46ca-80a6-8aa1b2bc5f34")]
+            public virtual Ranorex.Button ButtonGo
+            {
+                get
+                {
+                    return _buttongoInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonGo item info.
+            /// </summary>
+            [RepositoryItemInfo("acfdcc93-fe78-46ca-80a6-8aa1b2bc5f34")]
+            public virtual RepoItemInfo ButtonGoInfo
+            {
+                get
+                {
+                    return _buttongoInfo;
                 }
             }
         }

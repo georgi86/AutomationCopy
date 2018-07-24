@@ -83,13 +83,13 @@ namespace CopyFunctionality
 
             //if the STA file exist at the beggining of run, delete them
 
-            //
-            //
-            //
-            //
+            string strActualValuesPath = "D:\\Joro\\GIT_Automations\\AutomationCopy\\Reports\\ActualValuesBIG.STA";    // Here we delete the actuasl.STA file otherwice the data will be duplicate    
+            System.IO.File.Delete(strActualValuesPath);
+            Delay.Milliseconds(200);
 
-            
-
+            string strActualValuesFFWPath = "D:\\Joro\\GIT_Automations\\AutomationCopy\\Reports\\ActualValuesFFW.STA"; // Here we delete the actuasl.STA file otherwice the data will be duplicate  
+            System.IO.File.Delete(strActualValuesFFWPath);                                                              
+            Delay.Milliseconds(200);
 
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.TitleBar' at 882;7.", repo.SnapXUntitled.TitleBarInfo, new RecordItemIndex(0));
             repo.SnapXUntitled.TitleBar.Click("882;7");
@@ -117,11 +117,7 @@ namespace CopyFunctionality
 
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(9));
             Keyboard.Press("{Return}");
-            Delay.Milliseconds(200);
-
-            string strActualValuesPath = "D:\\Joro\\GIT_Automations\\AutomationCopy\\Reports\\ActualValuesBIG.STA";   // Here we delete the actuasl.STA file otherwice the data will be duplicate    
-            System.IO.File.Delete(strActualValuesPath);
-            Delay.Milliseconds(200);
+            Delay.Milliseconds(200);                       
 
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LMenu}'.", new RecordItemIndex(10));
             Keyboard.Press("{LMenu}");
@@ -214,10 +210,7 @@ namespace CopyFunctionality
             Keyboard.Press("{Return}");
             Delay.Milliseconds(200);
 
-            string strActualValuesFFWPath = "D:\\Joro\\GIT_Automations\\AutomationCopy\\Reports\\ActualValuesFFW.STA";
-            System.IO.File.Delete(strActualValuesFFWPath);        //delte the actual values , otherwice the data will duplicated.
-            Delay.Milliseconds(200);
-
+            
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LMenu}'.", new RecordItemIndex(28));
             Keyboard.Press("{LMenu}");
             Delay.Milliseconds(200);
@@ -236,7 +229,8 @@ namespace CopyFunctionality
 
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Inspection.ButtonOK' at Center.", repo.Inspection.ButtonOKInfo, new RecordItemIndex(34));
             repo.Inspection.ButtonOK.Click();
-            Delay.Milliseconds(200);
+            Delay.Milliseconds(10000);
+
 
             strActualValuesFFWPath = "D:\\Joro\\GIT_Automations\\AutomationCopy\\Reports\\ActualValuesFFW.STA";    
             string strHardcodedActualVAluesFFWPath = "D:\\Joro\\GIT_Automations\\AutomationCopy\\Reports\\HardcodedValuesFFW.STA";
@@ -292,6 +286,10 @@ namespace CopyFunctionality
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'n'.", new RecordItemIndex(40));
             Keyboard.Press("n");
             Delay.Milliseconds(200);
+
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.ButtonGo' at 47;149.", repo.SnapXUntitled.ButtonGoInfo, new RecordItemIndex(0));
+            repo.SnapXUntitled.ButtonGo.Click("47;149");
+            Delay.Milliseconds(2000);
 
         }
 
