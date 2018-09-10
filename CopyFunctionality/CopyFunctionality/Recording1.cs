@@ -291,6 +291,8 @@ namespace CopyFunctionality
             repo.SnapXUntitled.ButtonGo.Click("47;149");
             Delay.Milliseconds(2000);
 
+            /////////works fine///////////
+
         }
 
             #region Image Feature Data
